@@ -9,10 +9,12 @@ export function App() {
 
     return (
         <>
+
             {mainNavBar()}
             <div className="container">
 
             </div>
+            
         </>
         
     )
