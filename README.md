@@ -1,64 +1,65 @@
-# Airbnb Project
+# Airbnb Projesi
 
-## Features
+## Özellikler
 
-### 1) Sharing an Ad
-- Title and sub-message
-- December price range and daily price
-- Specifying the duration
-- Room layout and technical information
-- Buying for me option choices
-- Special things it offers
-- The assessments part
-- House pictures
+### 1) İlan Paylaşma
+- Başlık ve alt mesaj
+- Aralık fiyat aralığı ve günlük fiyat
+- Süreyi belirtme
+- Oda düzeni ve teknik bilgiler
+- Benim için satın alma seçenekleri
+- Sunulan özel özellikler
+- Değerlendirmeler bölümü
+- Ev resimleri
 
-### 2) Add to Favorites
+### 2) Favorilere Ekle
 
-### 3) Multiple Filtering
-- Filter by score
-- Filter by Distance
-- Filter by home feature
-- Filter by desired day
-- Filter by country/province
-- Filter by price
-- Filter by possibilities
-- Filter by location type
-- Filter by home layout
-- Filter by reservation selection
-- Filter according to the language the host speaks
+### 3) Birden Fazla Filtreleme
+- Puan ile filtreleme
+- Mesafeye göre filtreleme
+- Ev özelliklerine göre filtreleme
+- İstenilen günü belirlemeye göre filtreleme
+- Ülke/il bazında filtreleme
+- Fiyat ile filtreleme
+- İmkanlara göre filtreleme
+- Konum türüne göre filtreleme
+- Ev düzenine göre filtreleme
+- Rezervasyon seçimine göre filtreleme
+- Ev sahibinin konuştuğu dil bazında filtreleme
 
-### 4) Home Page Ad Search
+### 4) Ana Sayfa İlan Arama
 
-### 5) Ability to scroll the images of the previewed advertisement
+### 5) Önizleme reklamının resimlerini kaydırma yeteneği
 
-### 6) Show the map
+### 6) Haritayı gösterme
 
-### 7) Login and registration
+### 7) Giriş yapma ve kayıt olma
 
-### 8) Record of previous trips
+### 8) Önceki seyahat kayıtları
 
-### 9) Inbox & Chatting
+### 9) Gelen kutusu ve Sohbet
 
-### 10) My profile and settings
+### 10) Profilim ve Ayarlar
 
-### 11) The sales tab I made
+### 11) Yaptığım satış sekmesi
 
-### 12) Security settings
+### 12) Güvenlik ayarları
 
-### 13) Test Purchase system
+### 13) Test Satın Alma sistemi
 
-## How To Use
-- Log in, switch to seller mode or travel mode, rent your house or rent a house! You can share ads and chat with customers as a demo.
+## Nasıl Kullanılır
+- Giriş yapın, satıcı moduna veya seyahat moduna geçin, evinizi kiralayın veya bir ev kiralayın! İlanlarınızı paylaşabilir ve müşterilerle demo olarak sohbet edebilirsiniz.
 
-## Acknowledgements
+## Teşekkürler
 - Prime React
 - Ant Design
 - Elemental UI
+- MUI Core
 
-## Contact 
+## İletişim
 Gmail: koraydemirmc@gmail.com
 
-## Used Technologies
+## Kullanılan Teknolojiler
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
 - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
