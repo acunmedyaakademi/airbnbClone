@@ -17,8 +17,10 @@ export const mainNavBar = () => {
                     Evinizi Airbnb'ye taşıyın
                     <LanguageIcon style={{fontSize:"large",width:"32px"}}/>
                     <div className="profile">
+
                         <MenuIcon style={{fontSize:"1.2rem"}}/>
                         <AccountCircleIcon style={{color:"grey",fontSize:"2.2rem"}}/>
+                        
                     </div>
                 </div>
         </header>
