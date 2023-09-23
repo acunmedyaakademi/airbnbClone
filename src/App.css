@@ -65,5 +65,56 @@ body {
     gap: 8px;
     padding: 2px 4px 2px 10px;
     border-radius: 21px;
+    box-shadow: 0 1px 2px rgba(0 0 0 / 8%), 0 4px 12px rgba(0 0 0 / 5%);
+    transition: all 0.2s;
 }
+
+.profile:hover{
+    box-shadow: 0 1px 3px rgba(0 0 0 / 12%), 0 4px 12px rgba(0 0 0 / 10%);
+}
+
+.languageIcon {
+    padding: 0.7rem 0.8rem;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.languageIcon:hover {
+    background-color: #f8f8f8;
+}
+
+/* bottom navbar alanı başlangıç */
+.bottomNavBarContainer {
+    width: calc(100%);
+}
+
+.bottomNavBar{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    height: 70px;
+    padding-inline: 80px;
+}
+.iconFilters {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 980px;
+}
+
+.filterInside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5.5px;
+    height: 47.75px;
+    font-size: 10px;
+    font-weight: 900;
+}
+/* bottom navbar alanı bitiş */
+
 /* MainNavBar alanı bitiş */
