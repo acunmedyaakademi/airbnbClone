@@ -1,4 +1,4 @@
-# Airbnb Projesi
+# Airbnb Projesi | Statik V1.0.0.4
 
 ## Özellikler
 
