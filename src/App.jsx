@@ -11,11 +11,11 @@ export function App() {
 
     return (
         <>
-            <div className="navbar" style={{position:"fixed",top:"0",backgroundColor:"white"}}>
-                {mainNavBar()}
-                {mainNavBarBottom()}
-            </div>
             <div className="container">
+                <div className="navbar" style={{position:"fixed",right: "0",top:"0",backgroundColor:"white",width:"calc(100%)",paddingInline:"60px"}}>
+                    {mainNavBar()} 
+                    {mainNavBarBottom()}
+                </div>
                 <div className="adverts" style={{marginTop:"200px"}}>
                     {createAdverts()}
                 </div>

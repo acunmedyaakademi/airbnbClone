@@ -1,4 +1,5 @@
 import { iconFiltersList } from "./privateVeriable/iconFiltersVeriable";
+import {LeftOutlined,RightOutlined} from '@ant-design/icons';
 import TuneIcon from '@mui/icons-material/Tune';
 import { Switch } from 'antd';
 
@@ -15,6 +16,8 @@ const createIconFilters = iconFiltersList.map((e,i) => {
 export const mainNavBarBottom = () => {
     return(
         <div className="bottomNavBarContainer">
+                <LeftOutlined style={{backgroundColor:"white",position:"absolute",left:"60px",border:"1px solid rgb(0 0 0/0.3)",padding:"6px",borderRadius:"48px",zIndex:"9999",marginTop:"40px",fontSize:"14px"}}/>
+                <RightOutlined style={{backgroundColor:"white",position:"absolute",left:"1040px",border:"1px solid rgb(0 0 0/0.3)",padding:"6px",borderRadius:"48px",zIndex:"9999",marginTop:"40px",fontSize:"14px"}}/>
             <div className="bottomNavBar">
                 <div className="iconFilters">
                     {createIconFilters}
