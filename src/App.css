@@ -157,6 +157,7 @@ body {
     height: 47.75px;
     font-size: 10px;
     font-weight: 900;
+    transition: transform 0.5s ease-in-out;
 }
 
 .filterOptions {
@@ -193,9 +194,71 @@ body {
     align-items: center;
     border-radius: 12px;
 }
+
+.scrollBtn.deactive {
+    display: none;
+}
 /* bottom navbar alanı bitiş */
 
 /* MainNavBar alanı bitiş */
+
+/* signIn & SignUp başlangıç */
+.signContainer.true {
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fix;
+    width: calc(100%);
+    height: calc(100vh);
+    border: 0px ;
+    background-color: #0000004c;
+}
+
+.sign {
+    z-index: 99;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    border-radius: 16px;
+}
+
+.signUserName {
+    padding: 16px;
+    width: 470px;
+    height: 50px;
+    border-radius: 8px 8px 0px 0px;
+    border: 0.3px solid #dddddd;
+}
+
+.signPassword {
+    padding: 16px;
+    width: 470px;
+    height: 50px;
+    border-radius: 0px 0px 8px 8px;
+    border: 0.3px solid #dddddd;
+    border-top: 0px;
+}
+
+.signClose {
+    margin-top: 16px;
+    margin-left: 16px;
+    z-index: 1001;
+    position: absolute;
+    padding: 4px 12px 4px 12px;
+    cursor: pointer;
+}
+
+.signClose:hover {
+    border-radius: 48px;
+    padding: 4px 12px 4px 12px;
+    background-color: #f3f3f3a2;
+}
+
+/* signIn & SignUp bitiş */
+
+
 
 
 /* adverts alanı başlangıç */

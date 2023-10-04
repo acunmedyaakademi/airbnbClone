@@ -5,10 +5,6 @@ import { mainNavBarBottom } from './assets/jsx/mainNavBarBottom'
 import { createAdverts } from './assets/jsx/advert'
 
 export function App() {
-
-  
-
-
     return (
         <>
             <div className="container">
@@ -19,7 +15,6 @@ export function App() {
                 <div className="adverts" style={{marginTop:"200px"}}>
                     {createAdverts()}
                 </div>
-                
             </div>
         </>
         
