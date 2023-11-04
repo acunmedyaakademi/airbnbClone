@@ -132,7 +132,7 @@ body {
     align-items: center;
     padding-top: 40px;
     height: 70px;
-
+    justify-content: space-between;
     /* padding-left: 80px; */
     /* padding-right: -30px; */
     margin-bottom: 40px;
@@ -145,7 +145,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    max-width: 990px;
+    max-width: 1375px;
     overflow-x: hidden;
 }
 
@@ -168,7 +168,7 @@ body {
     z-index: inherit;
     background-color: rgba(255, 255, 255, 0.144);
     height: 70px;
-    width:500px;
+    width:400px;
 }
 
 .filterMenu {
@@ -204,11 +204,11 @@ body {
 
 /* signIn & SignUp başlangıç */
 .signContainer.true {
-    z-index: 1000;
+    z-index: 100000;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fix;
     width: calc(100%);
     height: calc(100vh);
     border: 0px ;
@@ -268,6 +268,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 26px;
+    z-index: 10;
     flex-wrap: wrap;
 }
 
@@ -281,5 +282,6 @@ body {
     border-radius: 12px;
     margin-bottom: 8px;
 }
+
 
 /* adverts alanı bitiş */
