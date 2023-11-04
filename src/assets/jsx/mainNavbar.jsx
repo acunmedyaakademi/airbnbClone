@@ -1,12 +1,19 @@
-import {SearchOutlined} from '@ant-design/icons';
+import {SearchOutlined,AppleFilled,MailOutlined} from '@ant-design/icons';
 import { Button, Space } from 'antd';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MenuIcon from '@mui/icons-material/Menu';
 import LanguageIcon from '@mui/icons-material/Language';
 import { InputText } from 'primereact/inputtext';
 import { useState,useEffect,useRef } from 'react';
+import { styled } from '@mui/material/styles';
+import Divider from '@mui/material/Divider';
+import Chip from '@mui/material/Chip';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
                
-export const mainNavBar = () => {
+    export const mainNavBar = () => {
+  
+
     const [dialogShow,setDialogShow] = useState(false);
 
     useEffect(() => {
@@ -43,6 +50,14 @@ export const mainNavBar = () => {
                         <Button type="primary" danger style={{width:"470px",height:"50px"}}>
                             Devam Et
                         </Button>
+                        <div className="optionsForSign" style={{display:"flex",gap:"16px",flexDirection:"column",justifyContent:"center",marginTop:"12px"}}>
+                            <Divider textAlign="center" style={{fontSize:"12px"}}>veya</Divider>
+                            <Button style={{height:"48px",marginInline:"12px",border:"solid 1px black",display:"flex",justifyContent:"space-between",alignItems:"center"}} ><img style={{width:"24px"}} src="src\assets\icons8-google.svg" alt="" />Google ile devam et <div></div></Button> 
+                            <Button style={{height:"48px",marginInline:"12px",border:"solid 1px black",display:"flex",justifyContent:"space-between",alignItems:"center"}} ><FacebookIcon color='primary'></FacebookIcon>Facebook ile devam et <div></div></Button> 
+                            <Button style={{height:"48px",marginInline:"12px",border:"solid 1px black",display:"flex",justifyContent:"space-between",alignItems:"center"}} ><AppleFilled style={{fontSize:"24px"}} />Apple ile devam et <div></div></Button> 
+                            <Button style={{height:"48px",marginInline:"12px",border:"solid 1px black",display:"flex",justifyContent:"space-between",alignItems:"center"}} ><MailOutlined style={{fontSize:"22px"}}/>Eposta ile devam et <div></div></Button> 
+                        </div> 
+                        
                     </div>
                 </div>
             </dialog>
