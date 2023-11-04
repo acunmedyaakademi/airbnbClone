@@ -22,8 +22,8 @@ export const mainNavBarBottom = () => {
     return(
         <>
             <div className="bottomNavBarContainer">
-                    <LeftOutlined className={`scrollBtn ${scrollPosition < 0 ? "active":"deactive"}`} onClick={() => {scrollPosition < -14 ? setScrollPosition(scrollPosition + 1):setScrollPosition(scrollPosition + 7)}} style={{backgroundColor:"white",position:"absolute",left:"60px",border:"1px solid rgb(0 0 0/0.3)",padding:"6px",borderRadius:"48px",zIndex:"9999",marginTop:"40px",fontSize:"14px"}}/>
-                    <RightOutlined className={`scrollBtn ${scrollPosition >= -14 ? "active":"deactive"}`} onClick={() => {scrollPosition <= -13 ? setScrollPosition(scrollPosition - 1):setScrollPosition(scrollPosition - 7)}} style={{zIndex:1,backgroundColor:"white",position:"absolute",left:"1040px",border:"1px solid rgb(0 0 0/0.3)",padding:"6px",borderRadius:"48px",zIndex:"9999",marginTop:"40px",fontSize:"14px"}}/>
+                    <LeftOutlined className={`scrollBtn ${scrollPosition < 0 ? "active":"deactive"}`} onClick={() => {scrollPosition < -10 ? setScrollPosition(scrollPosition + 1.24):setScrollPosition(scrollPosition + 2)}} style={{backgroundColor:"white",position:"absolute",left:"60px",border:"1px solid rgb(0 0 0/0.3)",padding:"6px",borderRadius:"48px",zIndex:"9999",marginTop:"40px",fontSize:"14px"}}/>
+                    <RightOutlined className={`scrollBtn ${scrollPosition >= -10 ? "active":"deactive"}`} onClick={() => {scrollPosition <= -10 ? setScrollPosition(scrollPosition - 1.24):setScrollPosition(scrollPosition - 2)}} style={{zIndex:1,backgroundColor:"white",position:"absolute",left:"1425px",border:"1px solid rgb(0 0 0/0.3)",padding:"6px",borderRadius:"48px",zIndex:"9999",marginTop:"40px",fontSize:"14px"}}/>
                 <div className="bottomNavBar">
                     <div className="iconFilters">
                         {createIconFilters}
