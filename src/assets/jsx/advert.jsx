@@ -8,9 +8,7 @@ export const createAdverts = () => {
         console.log(currentSlide);
       };
     return(
-        <>
-            
-
+        <>      
             <div className="card" >
                 <Carousel style={{width:"320px"}} afterChange={onChange}>
                     <div>
