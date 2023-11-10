@@ -5,20 +5,18 @@ import MenuIcon from '@mui/icons-material/Menu';
 import LanguageIcon from '@mui/icons-material/Language';
 import { InputText } from 'primereact/inputtext';
 import { useState,useEffect,useRef } from 'react';
-import { styled } from '@mui/material/styles';
 import Divider from '@mui/material/Divider';
-import Chip from '@mui/material/Chip';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
                
-    export const mainNavBar = () => {
+export const mainNavBar = () => {
   
 
     const [dialogShow,setDialogShow] = useState(false);
 
     useEffect(() => {
         const handleDocumentClick = (e) => {
-          if (e.target.className == "adverts"||e.target.className == "bottomNavBar"||e.target.className == "container"||e.target.className == "navbar"||e.target.className == "upperNavBar") {
+          if (e.target.className == "filterMenu"||e.target.className == "adverts"||e.target.className == "bottomNavBar"||e.target.className == "container"||e.target.className == "navbar"||e.target.className == "upperNavBar") {
             setActiveProfileMenu(false)
           }
         };
@@ -34,7 +32,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 
     return(
         <>
-            <dialog className={`signContainer ${dialogShow}`}>
+            <dialog className={`signContainer ${dialogShow}`} >
                 <div className="sign">
                     <div onClick={() => setDialogShow(false)} className="signClose">
                         <p>x</p>
@@ -66,7 +64,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
                     <div onClick={() => {setActiveProfileMenu(false),setDialogShow(true)}} className="menuBtn">
                         <h4 style={{color:"black"}}><strong>Kaydolun</strong></h4>
                     </div>
-                    <div className="menuBtn">
+                    <div className="menuBtn" onClick={() => {setActiveProfileMenu(false),setDialogShow(true)}}>
                         <h4 >Oturum açın</h4>
                     </div>
                     <hr/>
